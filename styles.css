@@ -9,6 +9,7 @@
 body {
     background: #282a36;
     font-family: 'Source Sans Pro', sans-serif;
+    color: white;
 }
 
 header {
@@ -43,4 +44,29 @@ header div a:hover {
     border-radius: 50%;
     border: 2px solid #50fa7b;
     margin-bottom: 32px;
+}
+
+#wrapper h1 {
+    font-size: 42;
+    line-height: 52px;
+    font-weight: bold;
+}
+
+#wrapper h2 {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: normal;
+    margin-top: 8px;
+    opacity: 0.8;
+}
+
+#wrapper h2 a {
+    text-decoration: none;
+    color: #50fa7b;
+}
+
+#wrapper p {
+    max-width: 500px;
+    margin: 32px auto;
+    font-size: 24px;
 }
